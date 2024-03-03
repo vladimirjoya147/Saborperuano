@@ -1,0 +1,144 @@
+@import url("header.css");
+@import url("footer.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white; 
+}
+/* ::::::::::::BIENVENIDOS :::::::::::::::*/
+.bienvenidos{
+    width: 90%;
+    margin: 20px auto;
+}
+.bienvenidos h2{
+    color: #9c8778;
+    padding: 5px;
+}
+.bienvenidos p{
+    text-align: justify;
+}
+/* :::::::::::::::::: BANNER :::::::::::::::::: */
+.carrusel{
+    height: 300px;
+    overflow: hidden;
+}
+.itemCarrusel{
+    position: relative;
+}
+.banner{
+    display: flex;
+}
+.flechas{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.flechas a{
+    text-decoration: none;
+}
+.flechas i{
+    font-size: 50px;
+    color: #9c8778;
+}
+.banner img{
+    width: 100%;
+}
+.circulos{
+    width: 40%;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.circulos i{
+    color:#ff7043;
+}
+/* :::: NOTICIAS ::: */
+.noticias{
+    display: flex;
+}
+aside{
+    width: 20%;
+}
+.noticias aside h2{
+    color: #ff7043;
+}
+aside a{
+    margin: 10px 0 0 10px;
+    display: block;
+    color: #ff7043;
+    text-decoration: none;
+}
+.section{
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.section article{
+    width: 45%;
+    margin: 10px auto;
+}
+.section article img{
+    margin: 0px 20px 10px 0px;
+    width: 40%;
+    float: left;
+}
+.section article h3{
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #9c8778;
+}
+.section article p{
+    text-align: justify;
+}
+/* ::::::::::::::: DIAS FESTIVOS ::::::::::::::::::: */
+.diasFestivos{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ede7e2;
+}
+.diasFestivos h2{
+    color: #9c8778;
+    padding: 5px;
+}
+.diasFestivos p{
+    width: 90%;
+    margin: 0 auto;
+}
+.platos{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 20px auto;
+}
+.platos figure{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+figure img{
+    width: 80%;
+    height: 120px;
+    margin-bottom: 20px;
+}
+figure figcaption{
+    padding-bottom: 10px;
+}
+figure figcaption a{
+    text-decoration: none;
+    color: #ff7043;
+}
+figure p{
+    text-align: justify;
+}
+
+

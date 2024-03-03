@@ -1,0 +1,83 @@
+header{
+    background-color: #ede7e2;
+    display: flex;
+    flex-direction: row;
+    height: 110px;
+}
+.logo{
+    width: 10%;
+}
+.logo img{
+    width: 100%;
+}
+.titulo{
+    width: 50%;
+}
+.titulo h1{
+    text-align: center;
+    color:#ff7043 ;
+    line-height: 110px;
+}
+.hDerecha{
+    width: 30%;
+    display: flex;
+    align-items: center;  
+}
+.search{
+    background-color: white;
+    display: flex;
+    width: 90%px;
+    border-radius: 25px;
+    margin: 5px;
+    padding: 10px;
+}
+.search input{
+    border: none;
+    background-color: white;
+}
+/* NAV  */ 
+nav{
+    width: 100%;
+    background-color:#ff7043;
+    font-size: 20px;
+}
+.Mhorizontal{
+   display: flex;
+   justify-content: space-around;
+   list-style: none;
+}
+.Mhorizontal li a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+.Mhorizontal li:hover{
+    background-color: #9c8778;
+}
+.Mvertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    background-color:#ff7043;
+}
+.Mhorizontal li:hover .Mvertical{
+    display: block;
+}
+.Mvertical li:hover{
+    background-color: #9c8778;
+}
+.Mvertical li a{
+    display: block;
+    padding: 10px 10px 15px 10px;
+    text-decoration: none;
+}
+.Mvertical li a span{
+    color: white;
+    background-color: red;
+    font-size: 15px;
+    border-radius: 25%;
+    padding: 5px;
+    margin-left: 5px;
+
+}

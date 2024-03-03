@@ -1,0 +1,32 @@
+main{
+    padding: 20px;
+}
+main h1{
+    width: 50%;
+    border: 3px solid brown;
+    color: #ff7043;
+    padding: 5px;
+}
+main p{
+    padding: 10px;
+    text-align: justify;
+}
+.platos{
+    display: flex;
+    flex-direction: row;
+}
+.platos figure{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+figure img{
+    width: 80%;
+    height: 120px;
+    margin-bottom: 20px;
+}
+figure figcaption a{
+    text-decoration: none;
+    color: #ff7043;
+}

@@ -1,0 +1,64 @@
+main{
+    padding: 20px;
+}
+main h1{
+    width: 80%;
+    border: 3px solid brown;
+    color: #ff7043;
+    padding: 5px;
+}
+main p{
+    padding: 10px;
+    text-align: justify;
+}
+.platos{
+    display: flex;
+    flex-direction: row;
+}
+.platos figure{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+figure img{
+    width: 80%;
+    height: 120px;
+    margin-bottom: 20px;
+}
+figure figcaption a{
+    text-decoration: none;
+    color: #ff7043;
+}
+.estrellas i{
+    color:#9c8778;
+}
+hr{
+    border: 3px solid #9c8778;
+}
+.otros{
+    display: flex;
+    flex-direction: column;
+}
+.otros h2{
+    margin: 5px;
+    color: #9c8778;
+}
+.ranking{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.ranking figure{
+    width: 45%;
+    margin: 0% 5%;
+}
+.ranking figure figcaption {
+    text-align: center;
+    padding: 5px;
+    margin: 15px;
+}
+.ranking figure img{
+    width: 90%;
+    height: 150px;
+}
